@@ -9,6 +9,9 @@ import axios from 'axios';
 
 // Screens
 import Home from './Screens/Home';
+import Deck from './Screens/Deck';
+import PreOrder from './Screens/PreOrder';
+import Urmom from './Screens/Urmom';
 
 const App = () =>
 {
@@ -17,6 +20,9 @@ const App = () =>
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/deck" element={<Deck />} />
+        <Route path="/pre-order" element={<PreOrder />} />
+        <Route path="/urmom" element={<Urmom />} />
       </Routes>
     </Router>
   )
