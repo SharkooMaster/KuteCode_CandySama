@@ -15,9 +15,9 @@ export default function Master(props) {
 						<img src={Logo} className="w-[35px] h-[40px] " />
 				}</Link>
 				<div className='flex flex-row h-[40] items-center gap-4'>
-					<Link to="/Deck">		<p className={[(props.light) ? "text-white" : "" + ' text-[18px]']}>Deck</p> 	</Link>
-					<Link to="/pre-order">	<p className={[(props.light) ? "text-white" : "" + ' text-[18px]']}>Preorder</p></Link>
-					<Link to="/urmom">		<p className={[(props.light) ? "text-white" : "" + ' text-[18px]']}>ur mom</p>	</Link>
+					<Link to="/Deck">		<p className={[(props.light) ? "text-white" : "" + ' text-[18px]']}>I love</p> 	</Link>
+					<Link to="/pre-order">	<p className={[(props.light) ? "text-white" : "" + ' text-[18px]']}>you</p></Link>
+					<Link to="/urmom">		<p className={[(props.light) ? "text-white" : "" + ' text-[18px]']}>muffin</p>	</Link>
 				</div>
 			</div>
 
